@@ -2,7 +2,6 @@
  * 基础排序算法实践
  */
 const arr = [1,3,2,9,6,8,4,5]
-
 // 冒泡：比较相邻两个元素大小 外部循环len-1次 内部循环len-1-o次 从0开始-o表示已经冒泡出来的数
 function maopao(arr){
     if(!arr.length){
